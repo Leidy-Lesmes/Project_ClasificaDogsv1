@@ -5,7 +5,7 @@
         <div class="flex items-center flex-shrink-0 text-white mr-6">
           <px-icon class="mr-4" />
           <span class="font-semibold text-xl tracking-tight"
-            >ClasificaDogs</span
+            >ClasificaDogs!</span
           >
         </div>
         <div
