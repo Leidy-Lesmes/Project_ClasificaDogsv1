@@ -2,16 +2,18 @@
   <main>
     <px-header />
     <nav-bar />
+    <card-pets />
   </main>
 </template>
 
 <script>
 import PxHeader from "@/components/PxHeader";
 import NavBar from "@/components/NavBar";
+import CardPets from "@/components/CardPets";
 
 export default {
   name: "app",
-  components: { PxHeader, NavBar },
+  components: { PxHeader, NavBar, CardPets },
 };
 </script>
 
