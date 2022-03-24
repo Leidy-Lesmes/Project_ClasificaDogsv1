@@ -7,7 +7,10 @@
           <div>
             <!--icon?-->
             <div class="flex items-center py-5 px-2">
-              <a href="" class="flex items-center space-x-2 py-5 px-2">
+              <router-link
+                to="/createPet"
+                class="flex items-center space-x-2 py-5 px-2"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="h-8 w-8 text-indigo-200"
@@ -25,12 +28,15 @@
                 <span class="text-xxl font-bold text-white"
                   >Agregar Mascota</span
                 >
-              </a>
+              </router-link>
             </div>
           </div>
           <!--Buscar mascota-->
           <div class="flex items-center py-5 px-2">
-            <a href="" class="flex items-center space-x-2 py-5 px-2">
+            <router-link
+              to="/findpet"
+              class="flex items-center space-x-2 py-5 px-2"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-8 w-8 text-indigo-200"
@@ -46,13 +52,13 @@
                 />
               </svg>
               <span class="text-xxl font-bold text-white">Buscar Mascota</span>
-            </a>
+            </router-link>
           </div>
         </div>
       </div>
     </div>
   </nav>
-  <div class="p-8 textt-2xl font_extrabold text-center">Content</div>
+  <div class="p-8 textt-2xl font_extrabold text-center"></div>
 </template>
 
 <script>
